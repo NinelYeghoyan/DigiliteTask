@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task</title>
+    <link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="body">
+<header>
+    <h1 class="title">Buy property in markham!</h1>
+</header>
+<main class="main">
+    <div class="wrapper">
+        <div class="block">
+            <img src="img/img4.jpeg" class="mask flamingo" data-mask="./img/masks/circle.png">
+            <img src="img/img3.jpeg" class="mask flamingo" data-mask="./img/masks/square.png">
+        </div>
+        <div class="block">
+            <img src="img/img2.jpeg" class="mask rectangular click" data-mask="./img/masks/rectangular.png">
+            <img src="img/img1.jpeg" class="mask click" data-mask="./img/masks/triangle.png">
+        </div>
+        <modal id="modal">
+            <div id="closeBotton">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="imgOverlay">
+                <img id="modalImg" class="modalImg" alt="img"/>
+            </div>
+        </modal>
+    </div>
+</main>
+<script src="js/canvasmask.min.js"></script>
+</body>
+</html>
